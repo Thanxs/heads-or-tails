@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Подбрось монетку (Gurusn)</title>
+</head>
+<body>
+  <h1 class="title">Подбрось монетку</h1>
+  <div class="wrapper">
+    <div class="container">
+      <div class="head">
+        <h2>Орел</h2>
+        <div>
+          <img width="100" src="./assets/heads.png" alt="Орел">
+        </div>
+        <div class="head__times">
+        </div>
+      </div>
+      <div class="tail">
+        <h2>Решка</h2>
+        <div>
+          <img width="100" src="./assets/tails.png" alt="Решка">
+        </div>
+        <div class="tail__times">
+        </div>
+      </div>
+    </div>
+    <form class="form">
+      <input class="amount" type="number" min="0" max="100000000" placeholder="Сколько раз подкинуть?">
+      <button class="action" type="submit">Подкинуть монетку</button>
+    </form>
+    <div class="difference"></div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
